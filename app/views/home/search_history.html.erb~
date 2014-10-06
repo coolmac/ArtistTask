@@ -1,0 +1,26 @@
+<h3>Search History</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Searched For </th>
+     <th> Time </th>
+ 
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @histories.each do |history| %>
+      <tr>
+        <td><%= history.search_term %></td>
+         <td><%= history.created_at %></td>
+           
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
