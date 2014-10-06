@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 
 # User authendication
 gem 'devise'
+
+# for consuming rest api
+gem 'httparty'
