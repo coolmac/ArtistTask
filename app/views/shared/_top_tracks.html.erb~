@@ -1,0 +1,7 @@
+
+<% tracks["toptracks"]["track"].each do |tr| %>
+ <%= tr["name"] %> </br>
+<% end %>
+<% else %>
+NO Similar artists found
+<% end %>
